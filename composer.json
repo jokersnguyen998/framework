@@ -1,0 +1,27 @@
+{
+    "name": "klthuy/framework",
+    "description": "PHP lite framework\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[-\u001b[\u001b[1;5D\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Huy Nguyen",
+            "email": "klthuynguyen1998@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0",
+        "filp/whoops": "^2.14",
+        "jenssegers/blade": "^1.4",
+        "rakit/validation": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPLite\\": "src/"
+        },
+        "files": [
+            "src/Helpers/helper.php"
+        ]
+    }
+}
